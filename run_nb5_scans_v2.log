@@ -1,0 +1,7 @@
+[runner v2] waiting for scan2 PID=17794 ...
+[runner v2] scan2 finished.
+[runner v2] === extension: vnn 2.2..4.0 (10 pts) ===
+[runner v2] === combine 0..2 + 2.2..4 plot ===
+[runner v2] === scan3: vnn=1, vnnn 0..1 (11 pts) ===
+[runner v2] === scan4: coulomb vnnn=vnn/2, vnn 0..2 (11 pts) ===
+[runner v2] all done.

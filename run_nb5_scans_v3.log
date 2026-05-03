@@ -1,0 +1,4 @@
+[runner v3] === ext: vnn 4.2..6.0 (10 pts) ===
+[runner v3] === combine 0..2 + 2.2..4 + 4.2..6 plot ===
+[runner v3] === vnn=2 vnnn 0..2 scan (11 pts) ===
+[runner v3] all done.

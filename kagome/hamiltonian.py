@@ -46,7 +46,7 @@ def build_single_particle_H(lattice, params):
     return H
 
 
-def quspin_static_lists(lattice, params, V_nn=0.0):
+def quspin_static_lists(lattice, params, V_nn=0.0, V_nnn=0.0):
     """Build QuSpin static operator lists for many-body Hamiltonian.
 
     Returns list of [op_string, coupling_list] entries for QuSpin's
@@ -83,5 +83,12 @@ def quspin_static_lists(lattice, params, V_nn=0.0):
         for i, j in lattice.nn_pairs:
             nn_int.append([V_nn, i, j])
         static.append(["nn", nn_int])
+
+    # NNN density-density interaction
+    if V_nnn != 0.0:
+        nnn_int = []
+        for i, j in lattice.nnn_pairs:
+            nnn_int.append([V_nnn, i, j])
+        static.append(["nn", nnn_int])
 
     return static

@@ -1,0 +1,6 @@
+  loaded kagome_disk_nb5_vnn_scan_0to2.npz: 11 points
+  loaded kagome_disk_nb5_vnn_scan_2p2to4.npz: 10 points
+  loaded kagome_disk_nb5_vnn_scan_4p2to6.npz: 10 points
+Combined: 31 points, V_nn range [0, 6]
+Saved: kagome_disk_nb5_vnn_scan_0to6.png
+Saved: kagome_disk_nb5_vnn_scan_0to6.npz

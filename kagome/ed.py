@@ -8,7 +8,7 @@ from quspin.operators import hamiltonian
 from .hamiltonian import quspin_static_lists
 
 
-def run_ed(lattice, params, Nb, V_nn=0.0, n_states=30):
+def run_ed(lattice, params, Nb, V_nn=0.0, V_nnn=0.0, n_states=30):
     """Block-diagonalize Nb hard-core bosons on the Kagome disk by C6 sector.
 
     Args:
@@ -16,12 +16,13 @@ def run_ed(lattice, params, Nb, V_nn=0.0, n_states=30):
         params   : ModelParams instance.
         Nb       : number of bosons.
         V_nn     : nearest-neighbour repulsion strength.
+        V_nnn    : next-nearest-neighbour repulsion strength.
         n_states : eigenvalues per sector.  None -> all (dense diag).
 
     Returns:
         (energies, L_values) sorted by energy.
     """
-    static = quspin_static_lists(lattice, params, V_nn=V_nn)
+    static = quspin_static_lists(lattice, params, V_nn=V_nn, V_nnn=V_nnn)
     n = lattice.n_sites
     sigma = lattice.sigma
     no_checks = dict(check_symm=False, check_pcon=False, check_herm=False)
@@ -42,7 +43,8 @@ def run_ed(lattice, params, Nb, V_nn=0.0, n_states=30):
                 evals = evals[:n_states]
         else:
             k = min(n_states, basis.Ns - 2)
-            evals = np.sort(H.eigsh(k=k, which='SA',
+            ncv = min(max(3 * k, 2 * k + 1), basis.Ns - 1)
+            evals = np.sort(H.eigsh(k=k, which='SA', tol=1e-8, ncv=ncv,
                                     return_eigenvectors=False))
 
         print(f"  L={L}  Ns={basis.Ns:6d}  diag {time.time()-ts:5.1f}s  "

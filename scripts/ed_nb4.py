@@ -1,5 +1,10 @@
 """Nb=4 hard-core boson ED on 72-site Kagome disk."""
 
+import os
+os.environ.setdefault('OMP_NUM_THREADS', '6')
+os.environ.setdefault('MKL_NUM_THREADS', '6')
+os.environ.setdefault('OPENBLAS_NUM_THREADS', '6')
+
 import numpy as np
 import matplotlib.pyplot as plt
 

@@ -1,0 +1,104 @@
+
+=== [1/10] V_nn=4.2000  V_nnn=0 ===
+  L=0  Ns=2331924  diag 542.6s  Emin=-10.578522
+  L=1  Ns=2331924  diag 673.2s  Emin=-10.551836
+  L=2  Ns=2331924  diag 656.4s  Emin=-10.569180
+  L=3  Ns=2331924  diag 630.7s  Emin=-10.571097
+  L=4  Ns=2331924  diag 616.5s  Emin=-10.540866
+  L=5  Ns=2331924  diag 669.6s  Emin=-10.556592
+Total diag: 5197.6s
+  Emin=-10.578522  L_ground=0  elapsed=5198s
+
+=== [2/10] V_nn=4.4000  V_nnn=0 ===
+  L=0  Ns=2331924  diag 618.7s  Emin=-10.575425
+  L=1  Ns=2331924  diag 695.7s  Emin=-10.549608
+  L=2  Ns=2331924  diag 599.9s  Emin=-10.566709
+  L=3  Ns=2331924  diag 654.5s  Emin=-10.567902
+  L=4  Ns=2331924  diag 626.0s  Emin=-10.537470
+  L=5  Ns=2331924  diag 649.6s  Emin=-10.554182
+Total diag: 5238.2s
+  Emin=-10.575425  L_ground=0  elapsed=10436s
+
+=== [3/10] V_nn=4.6000  V_nnn=0 ===
+  L=0  Ns=2331924  diag 648.4s  Emin=-10.572504
+  L=1  Ns=2331924  diag 685.0s  Emin=-10.547539
+  L=2  Ns=2331924  diag 624.1s  Emin=-10.564373
+  L=3  Ns=2331924  diag 644.2s  Emin=-10.564905
+  L=4  Ns=2331924  diag 642.1s  Emin=-10.534283
+  L=5  Ns=2331924  diag 653.9s  Emin=-10.551930
+Total diag: 5290.9s
+  Emin=-10.572504  L_ground=0  elapsed=15727s
+
+=== [4/10] V_nn=4.8000  V_nnn=0 ===
+  L=0  Ns=2331924  diag 649.3s  Emin=-10.569743
+  L=1  Ns=2331924  diag 689.1s  Emin=-10.545612
+  L=2  Ns=2331924  diag 617.9s  Emin=-10.562161
+  L=3  Ns=2331924  diag 696.4s  Emin=-10.562088
+  L=4  Ns=2331924  diag 655.6s  Emin=-10.531288
+  L=5  Ns=2331924  diag 630.5s  Emin=-10.549818
+Total diag: 5333.2s
+  Emin=-10.569743  L_ground=0  elapsed=21060s
+
+=== [5/10] V_nn=5.0000  V_nnn=0 ===
+  L=0  Ns=2331924  diag 652.3s  Emin=-10.567132
+  L=1  Ns=2331924  diag 702.4s  Emin=-10.543813
+  L=2  Ns=2331924  diag 633.6s  Emin=-10.560064
+  L=3  Ns=2331924  diag 663.2s  Emin=-10.559434
+  L=4  Ns=2331924  diag 652.1s  Emin=-10.528468
+  L=5  Ns=2331924  diag 660.4s  Emin=-10.547834
+Total diag: 5358.2s
+  Emin=-10.567132  L_ground=0  elapsed=26418s
+
+=== [6/10] V_nn=5.2000  V_nnn=0 ===
+  L=0  Ns=2331924  diag 670.1s  Emin=-10.564656
+  L=1  Ns=2331924  diag 756.5s  Emin=-10.542129
+  L=2  Ns=2331924  diag 651.5s  Emin=-10.558072
+  L=3  Ns=2331924  diag 657.8s  Emin=-10.556929
+  L=4  Ns=2331924  diag 657.0s  Emin=-10.525807
+  L=5  Ns=2331924  diag 650.0s  Emin=-10.545965
+Total diag: 5438.8s
+  Emin=-10.564656  L_ground=0  elapsed=31857s
+
+=== [7/10] V_nn=5.4000  V_nnn=0 ===
+  L=0  Ns=2331924  diag 661.5s  Emin=-10.562307
+  L=1  Ns=2331924  diag 755.9s  Emin=-10.540549
+  L=2  Ns=2331924  diag 654.4s  Emin=-10.556179
+  L=3  Ns=2331924  diag 660.3s  Emin=-10.554561
+  L=4  Ns=2331924  diag 659.3s  Emin=-10.523292
+  L=5  Ns=2331924  diag 636.4s  Emin=-10.544199
+Total diag: 5424.9s
+  Emin=-10.562307  L_ground=0  elapsed=37282s
+
+=== [8/10] V_nn=5.6000  V_nnn=0 ===
+  L=0  Ns=2331924  diag 664.8s  Emin=-10.560074
+  L=1  Ns=2331924  diag 746.7s  Emin=-10.539063
+  L=2  Ns=2331924  diag 643.3s  Emin=-10.554376
+  L=3  Ns=2331924  diag 661.6s  Emin=-10.552317
+  L=4  Ns=2331924  diag 684.8s  Emin=-10.520913
+  L=5  Ns=2331924  diag 654.9s  Emin=-10.542529
+Total diag: 5455.4s
+  Emin=-10.560074  L_ground=0  elapsed=42738s
+
+=== [9/10] V_nn=5.8000  V_nnn=0 ===
+  L=0  Ns=2331924  diag 709.5s  Emin=-10.557949
+  L=1  Ns=2331924  diag 744.1s  Emin=-10.537663
+  L=2  Ns=2331924  diag 685.7s  Emin=-10.552658
+  L=3  Ns=2331924  diag 651.5s  Emin=-10.550189
+  L=4  Ns=2331924  diag 710.3s  Emin=-10.518658
+  L=5  Ns=2331924  diag 671.2s  Emin=-10.540946
+Total diag: 5574.6s
+  Emin=-10.557949  L_ground=0  elapsed=48313s
+
+=== [10/10] V_nn=6.0000  V_nnn=0 ===
+  L=0  Ns=2331924  diag 712.6s  Emin=-10.555925
+  L=1  Ns=2331924  diag 752.5s  Emin=-10.536341
+  L=2  Ns=2331924  diag 684.8s  Emin=-10.551019
+  L=3  Ns=2331924  diag 667.8s  Emin=-10.548168
+  L=4  Ns=2331924  diag 716.7s  Emin=-10.516518
+  L=5  Ns=2331924  diag 672.9s  Emin=-10.539442
+Total diag: 5607.6s
+  Emin=-10.555925  L_ground=0  elapsed=53920s
+
+Total scan time: 53920.2s
+Saved: kagome_disk_nb5_vnn_scan_4p2to6.png
+Saved data: kagome_disk_nb5_vnn_scan_4p2to6.npz
