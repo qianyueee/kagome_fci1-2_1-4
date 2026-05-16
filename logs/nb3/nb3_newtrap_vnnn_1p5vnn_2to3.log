@@ -1,0 +1,18 @@
+[1/5] V_nn=2.200  V_nnn=3.300
+  diag 8.1s
+  Emin=-6.003471  L_ground=3
+[2/5] V_nn=2.400  V_nnn=3.600
+  diag 7.6s
+  Emin=-5.999887  L_ground=3
+[3/5] V_nn=2.600  V_nnn=3.900
+  diag 7.7s
+  Emin=-5.996612  L_ground=3
+[4/5] V_nn=2.800  V_nnn=4.200
+  diag 7.8s
+  Emin=-5.993603  L_ground=3
+[5/5] V_nn=3.000  V_nnn=4.500
+  diag 7.8s
+  Emin=-5.990826  L_ground=3
+Total: 39.0s
+Saved merged plot: figures/nb3/kagome_disk_nb3_newtrap_vnnn_1p5vnn_0to3.png
+Saved data: data/nb3/kagome_disk_nb3_newtrap_vnnn_1p5vnn_2to3.npz

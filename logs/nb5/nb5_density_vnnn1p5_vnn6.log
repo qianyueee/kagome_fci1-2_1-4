@@ -1,0 +1,14 @@
+Nb=5, V_nn=6.0, V_nnn=4.0
+  L=0  Ns=2331924  diag 432.6s  Emin=-10.202115
+  L=1  Ns=2331924  diag 434.2s  Emin=-10.165267
+  L=2  Ns=2331924  diag 341.5s  Emin=-10.149304
+  L=3  Ns=2331924  diag 463.7s  Emin=-10.144612
+  L=4  Ns=2331924  diag 339.0s  Emin=-10.156628
+  L=5  Ns=2331924  diag 679.7s  Emin=-10.222263
+
+Ground state in L=5, E=-10.222263, total 4830.2s
+
+Computing site densities ...
+  done in 3.5s, sum(n_i) = 5.0000 (expect 5)
+Saved: kagome_disk_nb5_density_vnnn_1p5_vnn6.npz
+Saved: kagome_disk_nb5_density_vnnn_1p5_vnn6.png

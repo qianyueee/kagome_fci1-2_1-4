@@ -1,0 +1,93 @@
+
+=== [1/11] V_nn=0.0000  V_nnn=0.0000 ===
+  L=0  Ns=2331924  diag 341.2s  Emin=-10.029112
+  L=1  Ns=2331924  diag 150.7s  Emin=-9.965780
+  L=2  Ns=2331924  diag 174.0s  Emin=-9.926106
+  L=3  Ns=2331924  diag 228.4s  Emin=-10.126792
+  L=4  Ns=2331924  diag 321.7s  Emin=-10.086710
+  L=5  Ns=2331924  diag 417.1s  Emin=-10.055280
+Total diag: 3012.7s
+  Emin=-10.126792  L_ground=3  elapsed=3013s
+
+=== [2/11] V_nn=0.2000  V_nnn=0.2000 ===
+  L=0  Ns=2331924  diag 332.1s  Emin=-9.865662
+  L=1  Ns=2331924  diag 294.5s  Emin=-9.819698
+  L=2  Ns=2331924  diag 241.0s  Emin=-9.796650
+  L=3  Ns=2331924  diag 147.0s  Emin=-9.960088
+  L=4  Ns=2331924  diag 220.5s  Emin=-9.917428
+  L=5  Ns=2331924  diag 308.0s  Emin=-9.889115
+Total diag: 2930.0s
+  Emin=-9.960088  L_ground=3  elapsed=5943s
+
+=== [3/11] V_nn=0.4000  V_nnn=0.4000 ===
+  L=0  Ns=2331924  diag 257.2s  Emin=-9.726949
+  L=1  Ns=2331924  diag 258.0s  Emin=-9.702907
+  L=2  Ns=2331924  diag 234.0s  Emin=-9.702937
+  L=3  Ns=2331924  diag 164.8s  Emin=-9.809268
+  L=4  Ns=2331924  diag 202.6s  Emin=-9.764882
+  L=5  Ns=2331924  diag 252.3s  Emin=-9.741035
+Total diag: 2754.1s
+  Emin=-9.809268  L_ground=3  elapsed=8697s
+
+=== [4/11] V_nn=0.6000  V_nnn=0.6000 ===
+  L=0  Ns=2331924  diag 225.5s  Emin=-9.603858
+  L=1  Ns=2331924  diag 219.6s  Emin=-9.597329
+  L=2  Ns=2331924  diag 252.1s  Emin=-9.619351
+  L=3  Ns=2331924  diag 265.0s  Emin=-9.672199
+  L=4  Ns=2331924  diag 302.7s  Emin=-9.626097
+  L=5  Ns=2331924  diag 278.1s  Emin=-9.607320
+Total diag: 3079.9s
+  Emin=-9.672199  L_ground=3  elapsed=11777s
+
+=== [5/11] V_nn=0.8000  V_nnn=0.8000 ===
+  L=0  Ns=2331924  diag 265.5s  Emin=-9.493889
+  L=1  Ns=2331924  diag 287.7s  Emin=-9.501055
+  L=2  Ns=2331924  diag 310.1s  Emin=-9.543792
+  L=3  Ns=2331924  diag 267.1s  Emin=-9.547780
+  L=4  Ns=2331924  diag 235.9s  Emin=-9.501100
+  L=5  Ns=2331924  diag 258.9s  Emin=-9.486579
+Total diag: 3235.9s
+  Emin=-9.547780  L_ground=3  elapsed=15013s
+
+=== [6/11] V_nn=1.0000  V_nnn=1.0000 ===
+  L=0  Ns=2331924  diag 249.9s  Emin=-9.396417
+  L=1  Ns=2331924  diag 307.6s  Emin=-9.423999
+  L=2  Ns=2331924  diag 256.0s  Emin=-9.475196
+  L=3  Ns=2331924  diag 201.9s  Emin=-9.436958
+  L=4  Ns=2331924  diag 185.7s  Emin=-9.407810
+  L=5  Ns=2331924  diag 237.2s  Emin=-9.415306
+Total diag: 2842.3s
+  Emin=-9.475196  L_ground=2  elapsed=17855s
+
+=== [7/11] V_nn=1.2000  V_nnn=1.2000 ===
+  L=0  Ns=2331924  diag 241.7s  Emin=-9.313112
+  L=1  Ns=2331924  diag 228.7s  Emin=-9.386887
+  L=2  Ns=2331924  diag 281.0s  Emin=-9.412807
+  L=3  Ns=2331924  diag 222.0s  Emin=-9.352889
+  L=4  Ns=2331924  diag 188.3s  Emin=-9.346132
+  L=5  Ns=2331924  diag 266.4s  Emin=-9.361807
+Total diag: 2751.4s
+  Emin=-9.412807  L_ground=2  elapsed=20607s
+
+=== [8/11] V_nn=1.4000  V_nnn=1.4000 ===
+  L=0  Ns=2331924  diag 238.4s  Emin=-9.269969
+  L=1  Ns=2331924  diag 219.2s  Emin=-9.354355
+  L=2  Ns=2331924  diag 241.3s  Emin=-9.356073
+  L=3  Ns=2331924  diag 183.4s  Emin=-9.297895
+  L=4  Ns=2331924  diag 201.9s  Emin=-9.292101
+  L=5  Ns=2331924  diag 248.2s  Emin=-9.312926
+Total diag: 2660.3s
+  Emin=-9.356073  L_ground=2  elapsed=23267s
+
+=== [9/11] V_nn=1.6000  V_nnn=1.6000 ===
+  L=0  Ns=2331924  diag 261.0s  Emin=-9.249636
+  L=1  Ns=2331924  diag 252.0s  Emin=-9.324699
+  L=2  Ns=2331924  diag 300.0s  Emin=-9.304682
+  L=3  Ns=2331924  diag 275.7s  Emin=-9.260935
+  L=4  Ns=2331924  diag 283.4s  Emin=-9.243414
+  L=5  Ns=2331924  diag 315.4s  Emin=-9.268336
+Total diag: 3143.9s
+  Emin=-9.324699  L_ground=1  elapsed=26411s
+
+=== [10/11] V_nn=1.8000  V_nnn=1.8000 ===
+  L=0  Ns=2331924  diag 258.5s  Emin=-9.233969

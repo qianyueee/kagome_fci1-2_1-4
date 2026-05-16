@@ -1,0 +1,4 @@
+[runner v6] waiting for v5 runner PID=30641 to finish ...
+[runner v6] v5 done; starting V_nnn=V_nn/1.5 scan.
+[runner v6] === V_nnn=V_nn/1.5: vnn 2..6 (21 pts), n_show=10 ===
+[runner v6] all done.

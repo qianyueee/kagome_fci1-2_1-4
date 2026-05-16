@@ -25,11 +25,11 @@ def build_single_particle_H(lattice, params):
     n = lattice.n_sites
     H = np.zeros((n, n), dtype=complex)
 
-    # Trap: |r| in units of a/2; a = NN distance = 0.5, a/2 = 0.25
-    # so |r|_{a/2} = d / 0.25 = 4d
+    # Trap: discretized round(9 r_half_sq) * (V_trap/9), r_half in a/2 units.
     for i in range(n):
-        d = np.linalg.norm(lattice.positions[i])
-        H[i, i] = params.V_trap * (4.0 * d) ** 2
+        pos_half = 4.0 * lattice.positions[i]
+        r_half_sq = pos_half[0] ** 2 + pos_half[1] ** 2
+        H[i, i] = round(r_half_sq * 9) * (params.V_trap / 9.0)
 
     tol = 1e-6
     for i in range(n):
@@ -55,11 +55,12 @@ def quspin_static_lists(lattice, params, V_nn=0.0, V_nnn=0.0):
     n = lattice.n_sites
     tol = 1e-6
 
-    # Trap: "n" operator
+    # Trap: discretized round(9 r_half_sq) * (V_trap/9), r_half in a/2 units.
     trap_list = []
     for i in range(n):
-        d = np.linalg.norm(lattice.positions[i])
-        trap_list.append([params.V_trap * (4.0 * d) ** 2, i])
+        pos_half = 4.0 * lattice.positions[i]
+        r_half_sq = pos_half[0] ** 2 + pos_half[1] ** 2
+        trap_list.append([round(r_half_sq * 9) * (params.V_trap / 9.0), i])
 
     # Hopping: all directed bonds in "+-" (b_i^dag b_j)
     # Iterating both (i,j) and (j,i) makes the sum manifestly Hermitian.

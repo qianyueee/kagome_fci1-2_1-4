@@ -1,0 +1,40 @@
+Verifying C6 orbits ...
+  12 orbits, lengths: {6}
+
+ED in L=5 sector ...
+  Ns=2331924  diag 540.3s
+  E0 = -10.22016291  E1 = -10.11355507
+  prev E_GS = -10.22016291  (delta = 5.15e-14)
+
+Computing raw <n_i> (one operator per site, no orbit average) ...
+  done in 4.5s, sum = 5.0000
+
+Computing orbit-averaged <(1/6) sum_k n_{sigma^k(i)}> ...
+  done in 2.2s, sum = 5.0000
+
+C6 symmetry diagnostic on raw density:
+   orbit         min         max      spread        mean
+       0    0.000011    0.101349    0.101338    0.017348
+       1    0.000276    0.046610    0.046334    0.008345
+       2    0.000621    0.092931    0.092310    0.017348
+       3    0.023337    0.439507    0.416170    0.113145
+       4    0.006874    0.080195    0.073321    0.028907
+       5    0.003773    0.067342    0.063569    0.028907
+       6    0.030632    0.151419    0.120787    0.113145
+       7    0.025207    0.149375    0.124169    0.118236
+       8    0.024441    0.207296    0.182855    0.137436
+       9    0.003435    0.177153    0.173718    0.118236
+      10    0.038352    0.105875    0.067523    0.072875
+      11    0.048259    0.073250    0.024991    0.059405
+  total spread sum: 1.487085  (should be 0 for true C6-invariant density)
+
+max|raw - orbit_mean| = 0.326362
+orbit_mean equals symm: True
+
+Saved data: data/nb5/kagome_density_nb5_vnn3_vnnn4p5_symm.npz
+Saved plot: figures/nb5/kagome_disk_nb5_density_vnn3_vnnn4p5_compare3style.png
+
+Sublattice statistics (corrected, symm-averaged):
+  sublat A: n_sites=24, mean<n>=0.0694, max=0.1374, sum=1.6667
+  sublat B: n_sites=24, mean<n>=0.0694, max=0.1374, sum=1.6667
+  sublat C: n_sites=24, mean<n>=0.0694, max=0.1374, sum=1.6667
