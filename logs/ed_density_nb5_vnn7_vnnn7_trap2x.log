@@ -1,0 +1,31 @@
+Nb=5, V_nn=7.0, V_nnn=7.0, V_trap=0.01 (2x)
+  L=0  Ns=2331924  diag 821.0s  Emin=-9.269397
+  L=1  Ns=2331924  diag 969.3s  Emin=-9.206907
+  L=2  Ns=2331924  diag 959.9s  Emin=-9.164497
+  L=3  Ns=2331924  diag 1019.9s  Emin=-9.141548
+  L=4  Ns=2331924  diag 963.6s  Emin=-9.126919
+  L=5  Ns=2331924  diag 849.0s  Emin=-9.222440
+ED total: 6912.9s
+
+Lowest 12:
+  k= 0  E=-9.269397  dE=+0.000000  L=0
+  k= 1  E=-9.222440  dE=+0.046957  L=5
+  k= 2  E=-9.206907  dE=+0.062490  L=1
+  k= 3  E=-9.165500  dE=+0.103897  L=1
+  k= 4  E=-9.164497  dE=+0.104901  L=2
+  k= 5  E=-9.158652  dE=+0.110745  L=0
+  k= 6  E=-9.141548  dE=+0.127850  L=3
+  k= 7  E=-9.136377  dE=+0.133020  L=2
+  k= 8  E=-9.126919  dE=+0.142478  L=4
+  k= 9  E=-9.125839  dE=+0.143558  L=3
+  k=10  E=-9.112036  dE=+0.157361  L=1
+  k=11  E=-9.089093  dE=+0.180305  L=1
+
+GS: L=0, E=-9.269397, gap=0.0470
+density done in 2.1s, sum=5.0000
+saved npz: data/nb5/kagome_density_nb5_vnn7_vnnn7_trap2x.npz
+saved spectrum: figures/nb5/trap2x_eq_diag/spectrum_vnn7_vnnn7_trap2x_n100.png
+saved density: figures/nb5/trap2x_eq_diag/density_vnn7_vnnn7_trap2x.png
+
+Sublattice means: A=0.0694, B=0.0694, C=0.0694
+density: max=0.1402 min=0.0037 std=0.0526
