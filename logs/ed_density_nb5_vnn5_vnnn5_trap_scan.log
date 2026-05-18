@@ -1,0 +1,115 @@
+
+======================================================================
+Nb=5, V_nn=5.0, V_nnn=5.0, trap factor=1.0 (V_trap=0.0050). Total elapsed so far: 0s
+======================================================================
+  L=0  Ns=2331924  diag 881.9s  Emin=-10.180910
+  L=1  Ns=2331924  diag 924.5s  Emin=-10.148963
+  L=2  Ns=2331924  diag 966.7s  Emin=-10.137061
+  L=3  Ns=2331924  diag 964.4s  Emin=-10.133772
+  L=4  Ns=2331924  diag 944.9s  Emin=-10.148071
+  L=5  Ns=2331924  diag 891.8s  Emin=-10.210305
+  ED total: 6894.5s
+  GS: L=5, E=-10.210305, gap=0.0294, L_1st=0
+  Lowest 6: E-E0=+0.0000(L=5), E-E0=+0.0294(L=0), E-E0=+0.0405(L=0), E-E0=+0.0613(L=1), E-E0=+0.0622(L=4), E-E0=+0.0702(L=1)
+  density done in 2.2s, sum=5.0000
+  saved npz: data/nb5/kagome_density_nb5_vnn5_vnnn5_trap1p0x.npz
+  saved spectrum: figures/nb5/vnn5_vnnn5_trap_scan/spectrum_trap1p0x_n100.png
+  saved density: figures/nb5/vnn5_vnnn5_trap_scan/density_trap1p0x.png
+
+======================================================================
+Nb=5, V_nn=5.0, V_nnn=5.0, trap factor=1.1 (V_trap=0.0055). Total elapsed so far: 6898s
+======================================================================
+  L=0  Ns=2331924  diag 940.1s  Emin=-10.092662
+  L=1  Ns=2331924  diag 884.3s  Emin=-10.053257
+  L=2  Ns=2331924  diag 911.8s  Emin=-10.034261
+  L=3  Ns=2331924  diag 930.6s  Emin=-10.027970
+  L=4  Ns=2331924  diag 912.0s  Emin=-10.041482
+  L=5  Ns=2331924  diag 880.4s  Emin=-10.112584
+  ED total: 6774.4s
+  GS: L=5, E=-10.112584, gap=0.0199, L_1st=0
+  Lowest 6: E-E0=+0.0000(L=5), E-E0=+0.0199(L=0), E-E0=+0.0427(L=0), E-E0=+0.0593(L=1), E-E0=+0.0708(L=1), E-E0=+0.0711(L=4)
+  density done in 2.0s, sum=5.0000
+  saved npz: data/nb5/kagome_density_nb5_vnn5_vnnn5_trap1p1x.npz
+  saved spectrum: figures/nb5/vnn5_vnnn5_trap_scan/spectrum_trap1p1x_n100.png
+  saved density: figures/nb5/vnn5_vnnn5_trap_scan/density_trap1p1x.png
+
+======================================================================
+Nb=5, V_nn=5.0, V_nnn=5.0, trap factor=1.2 (V_trap=0.0060). Total elapsed so far: 13675s
+======================================================================
+  L=0  Ns=2331924  diag 924.1s  Emin=-10.004789
+  L=1  Ns=2331924  diag 811.5s  Emin=-9.961556
+  L=2  Ns=2331924  diag 885.0s  Emin=-9.935947
+  L=3  Ns=2331924  diag 924.1s  Emin=-9.925999
+  L=4  Ns=2331924  diag 1000.3s  Emin=-9.936081
+  L=5  Ns=2331924  diag 876.3s  Emin=-10.015146
+  ED total: 6735.2s
+  GS: L=5, E=-10.015146, gap=0.0104, L_1st=0
+  Lowest 6: E-E0=+0.0000(L=5), E-E0=+0.0104(L=0), E-E0=+0.0450(L=0), E-E0=+0.0536(L=1), E-E0=+0.0744(L=1), E-E0=+0.0791(L=4)
+  density done in 2.0s, sum=5.0000
+  saved npz: data/nb5/kagome_density_nb5_vnn5_vnnn5_trap1p2x.npz
+  saved spectrum: figures/nb5/vnn5_vnnn5_trap_scan/spectrum_trap1p2x_n100.png
+  saved density: figures/nb5/vnn5_vnnn5_trap_scan/density_trap1p2x.png
+
+======================================================================
+Nb=5, V_nn=5.0, V_nnn=5.0, trap factor=1.3 (V_trap=0.0065). Total elapsed so far: 20412s
+======================================================================
+  L=0  Ns=2331924  diag 917.6s  Emin=-9.917201
+  L=1  Ns=2331924  diag 862.2s  Emin=-9.871056
+  L=2  Ns=2331924  diag 876.8s  Emin=-9.842376
+  L=3  Ns=2331924  diag 940.5s  Emin=-9.831267
+  L=4  Ns=2331924  diag 1018.8s  Emin=-9.832571
+  L=5  Ns=2331924  diag 921.3s  Emin=-9.917983
+  ED total: 6857.5s
+  GS: L=5, E=-9.917983, gap=0.0008, L_1st=0
+  Lowest 6: E-E0=+0.0000(L=5), E-E0=+0.0008(L=0), E-E0=+0.0469(L=1), E-E0=+0.0473(L=0), E-E0=+0.0756(L=2), E-E0=+0.0786(L=1)
+  density done in 2.0s, sum=5.0000
+  saved npz: data/nb5/kagome_density_nb5_vnn5_vnnn5_trap1p3x.npz
+  saved spectrum: figures/nb5/vnn5_vnnn5_trap_scan/spectrum_trap1p3x_n100.png
+  saved density: figures/nb5/vnn5_vnnn5_trap_scan/density_trap1p3x.png
+
+======================================================================
+Nb=5, V_nn=5.0, V_nnn=5.0, trap factor=1.4 (V_trap=0.0070). Total elapsed so far: 27273s
+======================================================================
+  L=0  Ns=2331924  diag 854.1s  Emin=-9.829872
+  L=1  Ns=2331924  diag 784.8s  Emin=-9.781151
+  L=2  Ns=2331924  diag 943.4s  Emin=-9.750265
+  L=3  Ns=2331924  diag 880.6s  Emin=-9.737414
+  L=4  Ns=2331924  diag 962.6s  Emin=-9.731816
+  L=5  Ns=2331924  diag 870.2s  Emin=-9.821093
+  ED total: 6609.1s
+  GS: L=0, E=-9.829872, gap=0.0088, L_1st=5
+  Lowest 6: E-E0=+0.0000(L=0), E-E0=+0.0088(L=5), E-E0=+0.0487(L=1), E-E0=+0.0584(L=0), E-E0=+0.0796(L=2), E-E0=+0.0917(L=1)
+  density done in 2.0s, sum=5.0000
+  saved npz: data/nb5/kagome_density_nb5_vnn5_vnnn5_trap1p4x.npz
+  saved spectrum: figures/nb5/vnn5_vnnn5_trap_scan/spectrum_trap1p4x_n100.png
+  saved density: figures/nb5/vnn5_vnnn5_trap_scan/density_trap1p4x.png
+
+======================================================================
+Nb=5, V_nn=5.0, V_nnn=5.0, trap factor=1.5 (V_trap=0.0075). Total elapsed so far: 33885s
+======================================================================
+  L=0  Ns=2331924  diag 801.1s  Emin=-9.742789
+  L=1  Ns=2331924  diag 781.9s  Emin=-9.691695
+  L=2  Ns=2331924  diag 970.6s  Emin=-9.658785
+  L=3  Ns=2331924  diag 939.7s  Emin=-9.643995
+  L=4  Ns=2331924  diag 958.3s  Emin=-9.634048
+  L=5  Ns=2331924  diag 889.0s  Emin=-9.724475
+  ED total: 6653.4s
+  GS: L=0, E=-9.742789, gap=0.0183, L_1st=5
+  Lowest 6: E-E0=+0.0000(L=0), E-E0=+0.0183(L=5), E-E0=+0.0511(L=1), E-E0=+0.0702(L=0), E-E0=+0.0840(L=2), E-E0=+0.0988(L=3)
+  density done in 2.1s, sum=5.0000
+  saved npz: data/nb5/kagome_density_nb5_vnn5_vnnn5_trap1p5x.npz
+  saved spectrum: figures/nb5/vnn5_vnnn5_trap_scan/spectrum_trap1p5x_n100.png
+  saved density: figures/nb5/vnn5_vnnn5_trap_scan/density_trap1p5x.png
+
+
+======================================================================
+Summary:
+ factor    V_trap  L_GS        E_GS      gap  L_1st   max_n   min_n
+    1.0    0.0050     5    -10.2103   0.0294      0  0.1375  0.0084
+    1.1    0.0055     5    -10.1126   0.0199      0  0.1372  0.0081
+    1.2    0.0060     5    -10.0151   0.0104      0  0.1369  0.0078
+    1.3    0.0065     5     -9.9180   0.0008      0  0.1367  0.0075
+    1.4    0.0070     0     -9.8299   0.0088      5  0.1410  0.0045
+    1.5    0.0075     0     -9.7428   0.0183      5  0.1407  0.0044
+
+Total scan time: 675.7 min
